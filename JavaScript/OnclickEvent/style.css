@@ -1,28 +1,16 @@
 body{ 
     font-family: 'Courier New';
     padding: 20px;
-    margin: 0px;
+     margin: 10px;
+     background-color: aqua;
     
-}
-button {
-    font-family: 'Courier New';
-}
-h1{
-    text-align: center;
-}
+} 
 
-.container{
+.main{
+  
     display: flex;
     flex-direction: column;
-    align-items: center;
-  
-    min-height:100vh;
-    justify-content: start;
-    
-}
+    justify-content: space-between;
+    padding: 40px;
+  }
  
-
-textarea{
-    padding: 20px;
-    margin: 20px;
-}
