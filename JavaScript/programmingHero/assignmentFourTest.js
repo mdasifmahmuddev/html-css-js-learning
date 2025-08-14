@@ -36,5 +36,4 @@ function  resultReport( marks ) {
  
 
 console.log(resultReport("90, 80, 70")); 
-// Expected Output: "Invalid"
-
+ 
