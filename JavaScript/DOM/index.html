@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Practice</title>
+</head>
+<body>
+    <main>
+        <h1>practicing dom </h1>
+        <header>
+            <h1>this is header</h1>
+        </header>
+        <h1></h1>
+        <ul>
+            <li>item no one</li>
+            <li>item no two</li>
+            <li>item no three</li>
+            
+        </ul>
+    </main>
+
+    <script>
+ //h1 
+    
+    const allheading =document.getElementsByTagName('li');
+    for(const heading of allheading ){
+        console.log(heading.innerText);
+
+    }
+
+
+    </script>
+
+
+    
+</body>
+</html>
